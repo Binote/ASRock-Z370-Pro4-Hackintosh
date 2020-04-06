@@ -6,14 +6,6 @@
 	<dict>
 		<key>Add</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>VEGA</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-VEGA.aml</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -95,6 +87,15 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
+        <dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				0300983e
+				</data>
+			</dict>
+		</dict>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
